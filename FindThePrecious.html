@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Find the Precious</title>
+  </head>
+  <body>
+    <nav>
+      <span>FindThePrecious.com</span>
+      <ul>
+        <li>Fellows</li>
+        <li>Contact us</li>
+      </ul>
+    </nav>
+
+    <section id="slider">
+      <div class="slideshow-text">
+        <h2>Dangerous Fellowship trys to destroy the ring</h2>
+        <h3>Beware Sauron!</h3>
+      </div>
+
+      <div class="slideshow-container">
+        <div class="slideshow-item">
+          <img src="#" alt="#" />
+        </div>
+
+        <div class="slideshow-item">
+          <img src="#" alt="#" />
+        </div>
+
+        <div class="slideshow-item">
+          <img src="#" alt="#" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)"></a>
+      </div>
+    </section>
+
+    <section id="reward">
+      <div class="reward-flex">
+        <div class="reward-flex">
+          <img src="#" alt="#" />
+          <h1>The Wizard</h1>
+          <p>small description</p>
+          <span class="reward-coins">Reward 1000 coins</span>
+        </div>
+
+        <div class="reward-flex">
+          <img src="#" alt="#" />
+          <h1>Hobbit</h1>
+          <p>small description</p>
+        </div>
+
+        <div class="reward-flex">
+          <img src="#" alt="#" />
+          <h1>Dwarf</h1>
+          <p>small description</p>
+          <span class="reward-coins">Reward 1000 coins</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-form">
+        <form action="action_page.php">
+          <label for="mail">
+            <img src="#" alt="#" />
+          </label>
+          <input type="text" id="mail_01" name="mail" />
+
+          <label for="mail">
+            <img src="#" alt="#" />
+          </label>
+          <input type="text" id="mail_02" name="mail" />
+
+          <label for="dwarfs">I have seen one of them</label>
+          <select id="dwarfs" name="dwarfs">
+            <option value="killed">Killed one</option>
+            <option value="torture">Tortured one</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Your message"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
